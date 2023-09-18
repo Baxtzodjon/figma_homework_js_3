@@ -14,7 +14,7 @@ if (name.charAt(0).toLowerCase() === 'a') {
                 alert('не хватить место')
             }
         } else {
-            alert('ты еще молодой')
+            alert('нет')
         }
     } else {
         alert('иди гуляй')
