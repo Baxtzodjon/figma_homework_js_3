@@ -1,8 +1,7 @@
-let name = 'Alex'
 let prmt_name = prompt('Как тебя зовут ?')
 
 
-if (name.charAt(0).toLowerCase() === 'a') {
+if (prmt_name.toLowerCase().startsWith('a')) {
     let prmt_money = +prompt('Сколько денег в кармане ?')
     if (prmt_money > 100) {
         let prmt_age = +prompt('Сколько тебе лет ?')
